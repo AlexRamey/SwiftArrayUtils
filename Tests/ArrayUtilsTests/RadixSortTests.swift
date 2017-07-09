@@ -25,4 +25,10 @@ class RadixSortTests : XCTestCase {
         XCTAssertEqual(jumbled.radixSort(), solution, "Incorrect Sort.")
     }
 
+    func
+    testEmptyInput() {
+        let jumbled:[Int] = []
+        let solution:[Int] = []
+        XCTAssertEqual(jumbled.radixSort(), solution, "Incorrect Sort.")
+    }
 }
