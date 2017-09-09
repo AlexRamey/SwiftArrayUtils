@@ -39,8 +39,6 @@
 use strict;
 use warnings;
 
-my @lines = (); # will hold file contents in RAM for processing
-
 my @manifest = (); # will store the eventual contents of XCTestManifests.swift
 
 my @linux = (); # will store the eventual contents of LinuxMain.swift

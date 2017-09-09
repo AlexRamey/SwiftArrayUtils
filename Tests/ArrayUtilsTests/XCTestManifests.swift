@@ -4,6 +4,7 @@ extension RadixSortTests {
         ("testMaxValueZero", testMaxValueZero),
         ("testNegativeNumbers", testNegativeNumbers),
         ("testEmptyInput", testEmptyInput),
+        ("testWellFormedInput2", testWellFormedInput2),
     ]
 }
 
